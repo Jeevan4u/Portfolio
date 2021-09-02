@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent {
+    width: 50%  ;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-left: 4rem;
+    /* Not working for some reasons that i don't know */
+    /* justify-content: center;
+    align-content: space-evenly; */
+  
+    }
+   
+.parent>div{
+    
+    border-radius: 50px;
+    box-shadow:  -32px -32px 63px #bebebe,
+             32px 32px 63px #ffffff;    
+  
+    
+}
+
+.parent:nth-child(1){
+    margin-top: 4rem;
+}
+
+
+.div1 {
+        background: url(./icons/epicgames.svg) no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-size: 60%;
+        height: 168px;
+        grid-area: 1 / 3 / 2 / 4;
+       
+    }
+
+.div2 {
+        background: url(./icons/rockstar.svg) no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-size: 70%;
+        grid-area: 2 / 2 / 3 / 3; 
+}
+.div3 {
+    background: url(./icons/destiny.svg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 60%;
+        grid-area: 2 / 3 / 3 / 4; 
+}
+.div4 {
+    background: url(./icons/apexlegends.svg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 60%;
+        grid-area: 2 / 4 / 3 / 5;
+    }
+.div5 {
+    background: url(./icons/icons8-mixer-logo.svg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 80%;
+        grid-area: 3 / 1 / 4 / 2;
+    }
+.div6 { 
+    background: url(./icons/minecraf.svg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 60%;
+    grid-area: 3 / 2 / 4 / 3;
+    }
+.div7 {
+    background: url(./icons/discord.svg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 60%;
+    grid-area: 3 / 3 / 4 / 4; 
+}
+.div8 {
+    background: url(./icons/doom.svg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 60%;
+    grid-area: 3 / 4 / 4 / 5; 
+}
+.div9 { 
+    background: url(./icons/warframe.svg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 50%;
+    background-size: 60%;
+    grid-area: 3 / 5 / 4 / 6; }
+.div10 {
+    background: url(./icons/dragonball.svg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 60%;
+    grid-area: 4 / 2 / 5 / 3; 
+}
+.div11 { 
+    background: url(./icons/playstay.svg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 60%;
+    grid-area: 4 / 3 / 5 / 4;
+    }
+.div12 {
+    background: url(./icons/garena.svg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 60%;
+    grid-area: 4 / 4 / 5 / 5; 
+}
+.div13 {
+    background: url(./icons/sublime.svg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 60%;
+    grid-area: 5 / 3 / 6 / 4; 
+}
+
